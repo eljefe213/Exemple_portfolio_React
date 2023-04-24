@@ -14,7 +14,7 @@
     "react-hooks": "^1.0.1",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "swiper": "^9.1.1",
     "vanilla-tilt": "^1.7.2",
     "vanillajs": "^1.0.1",
@@ -29,7 +29,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:react/jsx-runtime"
     ]
   },
   "browserslist": {
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-react-require": "^3.1.3"
   }
 }
